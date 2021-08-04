@@ -39,11 +39,11 @@ The matching will be done on a section level. For the purposes of this project, 
 Unfortunately, the raw legislation data will not be uploaded to the repository to stay clear of permission issues. The scripts to parse the html will also not be uploaded for similar reasons.
 
 The [data](/data) available on this repository are
-- some of the saved [vectors](../transjurisdictional-transformers/data/vectors) to allow users to still use the model to match legislation, and also to run the [evaluation scripts](../transjurisdictional-transformers/notebooks/02-evaluation.ipynb); not all the vectors could be uploaded due to github file size limit
-- the [answer keys](../transjurisdictional-transformers/data/answer-keys) needed for the evaluation
-- the [baseline edit distance results](../transjurisdictional-transformers/data/baselines) needed to get baseline scores
+- some of the saved [vectors](/data/vectors) to allow users to still use the model to match legislation, and also to run the [evaluation scripts](/notebooks/02-evaluation.ipynb); not all the vectors could be uploaded due to github file size limit
+- the [answer keys](/data/answer-keys) needed for the evaluation
+- the [baseline edit distance results](/data/baselines) needed to get baseline scores
 
-The BERT [models and tokenizers that would sit in this directory](../transjurisdictional-transformers/models) from the project are not pushed to git due to the size of the models.
+The BERT [models and tokenizers that would sit in this directory](/models) from the project are not pushed to git due to the size of the models.
 
 ### Flask App
 
