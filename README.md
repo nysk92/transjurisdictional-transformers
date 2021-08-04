@@ -38,7 +38,7 @@ The matching will be done on a section level. For the purposes of this project, 
 
 Unfortunately, the raw legislation data will not be uploaded to the repository to stay clear of permission issues. The scripts to parse the html will also not be uploaded for similar reasons.
 
-The [data](/transjurisdictional-transformers/data) available on this repository are
+The [data](/data) available on this repository are
 - some of the saved [vectors](../transjurisdictional-transformers/data/vectors) to allow users to still use the model to match legislation, and also to run the [evaluation scripts](../transjurisdictional-transformers/notebooks/02-evaluation.ipynb); not all the vectors could be uploaded due to github file size limit
 - the [answer keys](../transjurisdictional-transformers/data/answer-keys) needed for the evaluation
 - the [baseline edit distance results](../transjurisdictional-transformers/data/baselines) needed to get baseline scores
