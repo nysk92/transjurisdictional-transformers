@@ -1,0 +1,2 @@
+Models exceed 100mb github limit.
+Run the code in notebook 1b to train own models locally and save to this directory.
