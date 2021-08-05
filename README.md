@@ -38,16 +38,16 @@ The matching will be done on a section level. For the purposes of this project, 
 
 Unfortunately, the raw legislation data will not be uploaded to the repository to stay clear of permission issues. The scripts to parse the html will also not be uploaded for similar reasons.
 
-The [data](/data) available on this repository are
-- some of the saved [vectors](/data/vectors) to allow users to still use the model to match legislation, and also to run the [evaluation scripts](/notebooks/02-evaluation.ipynb); not all the vectors could be uploaded due to github file size limit
-- the [answer keys](/data/answer-keys) needed for the evaluation
-- the [baseline edit distance results](/data/baselines) needed to get baseline scores
+The [data](/data) available on this repository are,
+- some of the saved [vectors](/data/vectors) to allow users to still use the model to match legislation, and also to run the [evaluation scripts](/notebooks/02-evaluation.ipynb); not all the vectors could be uploaded due to github file size limit and some might need to be unzipped first after cloning the repo;
+- the [answer keys](/data/answer-keys) needed for the evaluation;
+- the [baseline edit distance results](/data/baselines) needed to get baseline scores.
 
 The BERT [models and tokenizers that would sit in this directory](/models) from the project are not pushed to git due to the size of the models.
 
 ### Flask App
 
-There is [flask app](https://github.com/nysk92/transjurisdictional-transformers-app/blob/main/README.md) that can be run on the browser for the tool to be tried out, preloaded with the vectors prepared in this project.
+There is a [flask app](https://github.com/nysk92/transjurisdictional-transformers-app/blob/main/README.md) that can be run on the browser for the tool to be tried out, preloaded with the vectors prepared in this project.
 
 ### Adaptability
 
